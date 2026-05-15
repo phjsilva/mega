@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS public.megasena (
   rateio_6_acertos DECIMAL NOT NULL,
   ganhadores_5_acertos INTEGER NOT NULL,
   rateio_5_acertos DECIMAL NOT NULL,
-  ganhadores_4_acertos INTEGER NOT NULL,
+  ganhadores_4_acertos INTEGER NULL,
   rateio_4_acertos DECIMAL NOT NULL,
   acumulado_6_acertos DECIMAL NOT NULL,
   arrecadacao_total DECIMAL NOT NULL,
